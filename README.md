@@ -1,3 +1,12 @@
+<p>
+  <a href="https://github.com/vinceplusplus/fast-operators/actions?query=workflow%3Atest+event%3Apush">
+    <img src="https://github.com/vinceplusplus/fast-operators/workflows/test/badge.svg?event=push">
+  </a>
+  <a href="https://codecov.io/gh/vinceplusplus/fast-operators">
+    <img src="https://codecov.io/gh/vinceplusplus/fast-operators/branch/master/graph/badge.svg?token=XPHA5YC5KX" />
+  </a>
+</p>
+
 # fast-operators
 
 Use `fast-operators` to eliminate or mitigate very long type-checking times if breaking up expressions is not an option
