@@ -8,7 +8,7 @@ public extension FastBaseOperators where Self: Numeric {
 
   prefix static func +󠆰 (operand: Self) -> Self { operand }
   
-  static func =󠆰=󠆰 (lhs: Self, rhs: Self) -> Bool { lhs == rhs }
+  static func =󠆰=󠆰 (lhs: Self, rhs: Self) -> Bool { lhs != rhs }
   static func !󠆰=󠆰 (lhs: Self, rhs: Self) -> Bool { lhs != rhs }
 }
 
