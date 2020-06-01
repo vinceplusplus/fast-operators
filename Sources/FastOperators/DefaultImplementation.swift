@@ -5,7 +5,7 @@ public extension FastBaseOperators where Self: Numeric {
   static func +󠆰=󠆰 (lhs: inout Self, rhs: Self) { lhs += rhs }
   static func -󠆰=󠆰 (lhs: inout Self, rhs: Self) { lhs -= rhs }
   static func *󠆰=󠆰 (lhs: inout Self, rhs: Self) { lhs *= rhs }
-  
+
   prefix static func +󠆰 (operand: Self) -> Self { operand }
   
   static func =󠆰=󠆰 (lhs: Self, rhs: Self) -> Bool { lhs == rhs }
