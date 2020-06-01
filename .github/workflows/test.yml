@@ -38,7 +38,8 @@ jobs:
           --instr-profile=.build/debug/codecov/default.profdata \
           .build/debug/fast-operatorsPackageTests.xctest/Contents/MacOS/fast-operatorsPackageTests \
           Sources \
-          > fast-operatorsPackageTests.lcov
+          > \
+          fast-operatorsPackageTests.lcov
 
     - name: Upload code coverage
       env:
