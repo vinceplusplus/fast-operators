@@ -53,6 +53,10 @@ extension FastOperatorsTests {
   func testFloatingPointOperators() {
     testGenerically(Float32.self)
     testGenerically(Float64.self)
+    
+    // https://github.com/apple/swift-numerics/blob/5dfc460876510988560170cee3702ab01b89587a/Sources/RealModule/Float80%2BReal.swift#L15
+    #if (arch(i386) || arch(x86_64)) && !os(Windows) && !os(Android)
     testGenerically(Float80.self)
+    #endif
   }
 }
